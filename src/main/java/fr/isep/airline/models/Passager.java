@@ -13,7 +13,7 @@ public class Passager extends Personne {
         this.reservations = new ArrayList<>();
     }
 
-    /** Un passager peut déclencher une réservation [cite: 95] */
+    /** Un passager peut déclencher une réservation  */
     public void reserverVol(Reservation r) { reservations.add(r); }
     public void annulerReservation(String id) { reservations.removeIf(r -> r.getNumeroReservation().equals(id)); }
     public List<Reservation> obtenirReservations() { return reservations; }

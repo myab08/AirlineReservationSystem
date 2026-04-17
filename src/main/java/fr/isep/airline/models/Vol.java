@@ -27,7 +27,7 @@ public class Vol {
         for(Passager p : passagers) p.obtenirInfos();
     }
     
-    // Getters indispensables
+    
     public String getNumeroVol() { return numeroVol; }
     public void ajouterPassager(Passager p) { passagers.add(p); }
 }

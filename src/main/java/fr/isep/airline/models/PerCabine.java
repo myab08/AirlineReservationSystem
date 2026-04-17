@@ -8,7 +8,7 @@ public class PerCabine extends Employe {
         this.qualification = qualif;
     }
 
-    @Override public String obtenirRole() { return "Personnel de Cabine"; }
+    public String obtenirRole() { return "Personnel de Cabine"; }
     public void affecterVol() { System.out.println("Membre de cabine affecté."); }
     public void obtenirVol() { /* Logique */ }
 }

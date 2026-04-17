@@ -18,11 +18,11 @@ public class Reservation {
     }
 
     public void confirmerReservation() {
-        this.statut = "Confirmée"; // [cite: 64]
+        this.statut = "Confirmée";
     }
 
     public void annulerReservation() {
-        this.statut = "Annulée"; // [cite: 77, 97]
+        this.statut = "Annulée"; 
     }
     public String getNumeroReservation() { return numeroReservation; }  
 

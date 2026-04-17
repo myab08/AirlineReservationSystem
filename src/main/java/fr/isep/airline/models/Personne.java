@@ -3,10 +3,10 @@ package src.main.java.fr.isep.airline.models;
 
 // Personne.java
 public abstract class Personne {
-    protected String identifiant; // [cite: 31]
-    protected String nom;         // [cite: 32]
-    protected String adresse;     // [cite: 33]
-    protected String contact;     // [cite: 34]
+    protected String identifiant;
+    protected String nom;        
+    protected String adresse;    
+    protected String contact;     
 
     public Personne(String id, String nom, String adresse, String contact) {
         this.identifiant = id;
@@ -25,7 +25,3 @@ public abstract class Personne {
 
 }
 
-// Employe.java
-
-
-// Pilote.java

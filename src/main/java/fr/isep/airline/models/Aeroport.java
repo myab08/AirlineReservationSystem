@@ -1,9 +1,9 @@
 package src.main.java.fr.isep.airline.models;
 
 public class Aeroport {
-    private String code; // [cite: 80]
-    private String nom;  // [cite: 82]
-    private String ville; // [cite: 84]
+    private String code;
+    private String nom;  
+    private String ville;
 
     public Aeroport(String code, String nom, String ville) {
         this.code = code;

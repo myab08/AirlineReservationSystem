@@ -1,12 +1,12 @@
 package src.main.java.fr.isep.airline.models;
-// Avion.java
+
 public class Avion {
-    private String immatriculation; // [cite: 39]
-    private String modele;          // [cite: 40]
-    private int capacite;           // [cite: 41]
+    private String immatriculation; 
+    private String modele;          
+    private int capacite;          
     private boolean estDisponible = true;
 
-    /** Vérifie si l'avion peut voler à l'horaire prévu [cite: 105] */
+    /** Vérifie si l'avion peut voler à l'horaire prévu  */
     public boolean verifierDisponibilite() {
         return estDisponible;
     }
